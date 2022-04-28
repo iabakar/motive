@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="icon" href="images/favicon.png" type="image/gif" />
+
+
+  <title>Motive</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+<header class="header_section">
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg custom_nav-container ">
+      <a class="navbar-brand" href="">
+        <span>
+          Motive
+        </span>
+      </a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class=""> </span>
+      </button>
+
+      <div class="navbar-collapse collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+  
+          <li class="nav-item">
+            <a class="nav-link" href="books.html">New Book</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html"> POS Login </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="customer.html">Customer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="order.html">Order</a>
+          </li>
+
+          <li>
+
+
+            <div class="input-group">
+              <div class="form-outline">
+                <input placeholder="Search for title, author, ISBN, publisher" size="35" maxlength="80" type="search" id="form1" class="form-control" />
+</div>
+</div>
+        
+
+          </li>
+
+
+<li>  <button type="button" class="btn btn-primary">
+  <i class="fas fa-search"></i> Search
+</button></li>
+
+
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+
+
+<div class="container">
+
+
+    <hr>
+<h3>Order books from distributors</h3>
+<h3>Distributors ID#9036</h3>
+
+<hr>
+
+    <div class="row">
+        <div class="col-md-4 order-md-2 mb-4">
+            <h4 class="d-flex justify-content-between align-items-center mb-3">
+                <span class="text-muted">Order list</span>
+                <span class="badge badge-secondary badge-pill">3</span>
+            </h4>
+            <ul class="list-group mb-3 sticky-top">
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                        <h6 class="my-0">Essentials of MIS.</h6>
+                        <small class="text-muted">For courses in Management Information Systems (MIS)...</small>
+                    </div>
+                    <span class="text-muted">$179.84</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                        <h6 class="my-0">Java For Dummies </h6>
+                        <small class="text-muted">Beginning Programming With Java for Dummies...                      </small>
+                    </div>
+                    <span class="text-muted">$45.78</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                        <h6 class="my-0">Harry Potter and the Philosopher's Stone</h6>
+                        <small class="text-muted">Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling....</small>
+                    </div>
+                    <span class="text-muted">$12.86</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between bg-light">
+                    <div class="text-success">
+                        <h6 class="my-0">Promo code</h6>
+                        <small>EXAMPLECODE</small>
+                    </div>
+                    <span class="text-success">-$5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <span>Total (USD)</span>
+                    <strong>$233.48</strong>
+                </li>
+            </ul>
+            <form class="card p-2">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Promo code">
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-success">Redeem</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-8 order-md-1">
+            <h4 class="mb-3">Billing address</h4>
+            <form class="needs-validation" novalidate="">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="firstName">First name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                        <div class="invalid-feedback"> Valid first name is required. </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="lastName">Last name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                        <div class="invalid-feedback"> Valid last name is required. </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="username">Customer ID</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">#</span>
+                        </div>
+                        <input type="text" class="form-control" id="username" placeholder="Customer ID" required="">
+                        <div class="invalid-feedback" style="width: 100%;"> Your username is required. </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="email">Email <span class="text-muted">(Optional)</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="customer email">
+                    <div class="invalid-feedback"> Please enter a valid email address for shipping updates. </div>
+                </div>
+                <div class="mb-3">
+                    <label for="address">Address</label>
+                    <input type="text" class="form-control" id="address" placeholder="350 New Campus Dr                  " required="">
+                    <div class="invalid-feedback"> Please enter your shipping address. </div>
+                </div>
+                <div class="mb-3">
+                    <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+                    <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                </div>
+                <div class="row">
+                    <div class="col-md-5 mb-3">
+                        <label for="country">City</label>
+                        <select class="custom-select d-block w-100" id="country" required="">
+                            <option value="">Brockport</option>
+                            <option>Syracuse</option>
+                        </select>
+                        <div class="invalid-feedback"> Please select a valid City. </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="state">State</label>
+                        <select class="custom-select d-block w-100" id="state" required="">
+                            <option value="">New York</option>
+                            <option>New Jersey</option>
+                        </select>
+                        <div class="invalid-feedback"> Please provide a valid state. </div>
+                    </div>
+              
+
+                    <div class="col-md-3 mb-3">
+                        <label for="zip">Zip</label>
+                        <input type="text" class="form-control" id="zip" placeholder="14420" required="">
+                        <div class="invalid-feedback"> Zip code required. </div>
+                    </div>
+                </div>
+                <hr class="mb-4">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="same-address">
+                    <label class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
+                </div>
+                <hr class="mb-4">
+                <h4 class="mb-3">Payment</h4>
+                <div class="d-block my-3">
+                    <div class="custom-control custom-radio">
+                        <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked="" required="">
+                        <label class="custom-control-label" for="credit">Credit card</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required="">
+                        <label class="custom-control-label" for="debit">Debit card</label>
+                    </div>
+                </div>
+                <hr class="mb-4">
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+            </form>
+        </div>
+    </div>
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; 2022: Motive</p>
+  
+        </ul>
+    </footer>
+</div>
